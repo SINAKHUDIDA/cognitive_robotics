@@ -1,0 +1,27 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/mobsya/thymio/protos/Thymio2.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.009601295787687385 0.9997517855754957 -0.02010428705040327 0.890992171502393
+  position -1.4262480469493461 0.058021565127929296 1.7217645221405777
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Thymio2 {
+  translation -0.404974 0.124732 -2.44249e-15
+  controller "gps_controller"
+  bodySlot [
+    GPS {
+    }
+  ]
+}

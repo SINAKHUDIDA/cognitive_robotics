@@ -1,0 +1,27 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/mobsya/thymio/protos/Thymio2.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.03446457981450085 0.995573113214728 -0.08744351881153997 0.7538307961050433
+  position -1.204699591849422 0.09416082964323594 1.149943934851319
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+}
+Thymio2 {
+  translation -0.041302 0.117161 -2.22045e-16
+  controller "compass_controller"
+  bodySlot [
+    Compass {
+    }
+  ]
+}
