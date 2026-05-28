@@ -8,8 +8,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.009601295787687385 0.9997517855754957 -0.02010428705040327 0.890992171502393
-  position -1.4262480469493461 0.058021565127929296 1.7217645221405777
+  orientation -0.28869413518486187 0.7219653823368043 0.6288256380087699 1.1328133502858748
+  position -0.839737724488014 -0.41955352645649396 1.2030094342322242
 }
 TexturedBackground {
 }
@@ -18,7 +18,8 @@ TexturedBackgroundLight {
 RectangleArena {
 }
 Thymio2 {
-  translation -0.404974 0.124732 -2.44249e-15
+  translation -0.390959 0.369464 -2.44249e-15
+  rotation 0 0 1 -0.785395307179586
   controller "gps_controller"
   bodySlot [
     GPS {
